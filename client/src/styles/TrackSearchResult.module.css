@@ -1,0 +1,31 @@
+.Thumb {
+    height: 64px;
+    width: 64px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.Container {
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.Right {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.Right * {
+    margin: 0;
+}
+
+.Title {
+    font-size: large;
+}
+
+.Artist {
+    color: #999999;
+    font-weight: bold;
+}
